@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kitchen Warehouse Header</title>
+  <link rel="stylesheet" href="styles.css">
+<!-- Link to Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        </style>
+</head>
+
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-links">
+                <a href="#">Brands</a>
+                <a href="#">Click & Collect</a>
+                <a href="#">Recipes & Tips</a>
+            </div>
+            
+            <div class="top-bar-links">
+                <a href="#"><i class="fas fa-location-dot"></i>Find a Store</a>
+                <a href="#"><i class="fas fa-circle-question"></i>Help</a>
+                <a href="tel:1800332934"><i class="fas fa-phone"></i>1800 332 934</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+      <div class="container">
+     <header class="site-header container">
+        <div class="logo-container">
+            <!-- Using the same logo URL you provided -->
+            <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1666849624%2Ftjrggjf4wynwrz6qw8na.png&w=256&q=75" alt="Kitchen Warehouse">
+        </div>
+        <div class="search-container">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search for products, brands, FAQs and more...">
+        </div>
+        <div class="user-actions">
+            <a href="#"><i class="fas fa-store"></i><span>Set a store</span></a>
+            <a href="#"><i class="far fa-user"></i><span>Account</span></a>
+            <a href="#"><i class="far fa-heart"></i><span>Wishlist</span></a>
+            <a href="#"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+        </div>
+        </div>
+    </header>
+    </header>
+    
+    <!-- Main Navigation -->
+    <nav class="main-nav container">
+        <a href="#">New In</a>
+        <a href="#">Appliances</a>
+        <a href="#">Cookware</a>
+        <a href="#">Knives</a>
+        <a href="#">Tableware</a>
+        <a href="#">Kitchenware</a>
+        <a href="#">Drinkware</a>
+        <a href="#">Bakeware</a>
+        <a href="#">Home & Living</a>
+        <a href="#" class="sale">Sale</a>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-image">
+        <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1754437507/vg1qafmy4wtc6rjut6wn.gif" alt="Mix and Match Tableware Set. Save up to 40%." />
+      </div>
+    </section>
+    <title>Product Carousel with Scrollbar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <title>Product Showcase</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link to your external stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white p-4 sm:p-8">
+
+    <div class="max-w-7xl mx-auto">
+        <!-- Section Header -->
+        <div class="flex justify-between items-center mb-4">
+            <div>
+                <p class="text-sm text-red-600 font-semibold">Kitchen Frenzy sale ends tonight</p>
+                <h2 class="text-3xl font-bold text-gray-800">Last chance to save!</h2>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-red-600 font-semibold hover:underline hidden sm:block">Shop Kitchen Frenzy</a>
+                <!-- Navigation Arrows -->
+                <div class="flex space-x-2">
+                    <button id="scroll-left" class="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button id="scroll-right" class="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Horizontally Scrollable Product Container -->
+        <div id="product-container" class="flex overflow-x-auto space-x-4 pb-4 custom-scrollbar scroll-smooth">
+            
+            <!-- Product Card 1 -->
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg group">
+                <div class="relative overflow-hidden rounded-t-lg">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Fq_auto%2FSupplier%2520Images%2520%2F2000px%2FWolstead-Mineral-Non-Stick-Baking-Tray-Pan-Set-4pc_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Bakeware Set" class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded">ONLINE ONLY</div>
+                    <button class="absolute top-3 right-3 p-2 bg-white/70 rounded-full hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <p class="text-xs font-bold text-green-700">KITCHEN FRENZY</p>
+                    <h3 class="font-semibold text-gray-800 mt-1 truncate">Wolstead Mineral Non Stick Baking Tray & Pan Set 4pc</h3>
+                    <div class="flex items-baseline mt-2">
+                        <p class="text-xl font-bold text-red-600">$79.95</p>
+                        <p class="text-sm text-gray-500 line-through ml-2">$159.95</p>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-1">55% OFF RRP</p>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg group">
+                <div class="relative overflow-hidden rounded-t-lg">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FBrunswick-Bakers-Oval-Proving-Basket-20cm_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Proving Basket" class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                     <div class="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded">ONLINE ONLY</div>
+                    <button class="absolute top-3 right-3 p-2 bg-white/70 rounded-full hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <p class="text-xs font-bold text-green-700">PAIR AND SAVE</p>
+                    <h3 class="font-semibold text-gray-800 mt-1 truncate">Brunswick Bakers Round Proving Basket 20cm</h3>
+                    <div class="flex items-baseline mt-2">
+                        <p class="text-xl font-bold text-red-600">$16.95</p>
+                        <p class="text-sm text-gray-500 line-through ml-2">$37.95</p>
+                    </div>
+                    <p class="text-xs text-gray-500 mt-1">55% OFF RRP</p>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg group">
+                <div class="relative overflow-hidden rounded-t-lg">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FMasterPro-Digital-Sous-Vide-Precision-Cooker-Black_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Sous Vide" class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                     <div class="absolute top-3 left-3 bg-green-600 text-white text-xs font-bold px-2 py-1 rounded">ONLINE ONLY</div>
+                    <button class="absolute top-3 right-3 p-2 bg-white/70 rounded-full hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <p class="text-xs font-bold text-green-700">KITCHEN FRENZY</p>
+                    <h3 class="font-semibold text-gray-800 mt-1 truncate">MasterPro Digital Sous Vide Precision Cooker Black</h3>
+                    <div class="flex items-baseline mt-2">
+                        <p class="text-xl font-bold text-red-600">$89.95</p>
+                         <p class="text-sm text-gray-500 line-through ml-2">$199.95</p>
+                    </div>
+                     <p class="text-xs text-gray-500 mt-1">55% OFF RRP</p>
+                </div>
+            </div>
+
+            <!-- Product Card 4 -->
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg group">
+                <div class="relative overflow-hidden rounded-t-lg">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FKitchen%2520Warehouse%2520Images%2520%2FSalisbury-Co-Mona-Dinner-Set-12pc-HERO_.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Dinner Set" class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">HOT DEAL</div>
+                    <button class="absolute top-3 right-3 p-2 bg-white/70 rounded-full hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <p class="text-xs font-bold text-gray-500">SALISBURY & CO</p>
+                    <h3 class="font-semibold text-gray-800 mt-1 truncate">Salisbury & Co Mona Dinner Set 12pc White with Black Speckle</h3>
+                    <div class="flex items-baseline mt-2">
+                        <p class="text-xl font-bold text-red-600">$79.95</p>
+                        <p class="text-sm text-gray-500 line-through ml-2">$179.95</p>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <!-- Star rating -->
+                        <div class="flex text-yellow-400">
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <span class="text-xs text-gray-600 ml-2">4.9 (65)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 5 -->
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg group">
+                <div class="relative overflow-hidden rounded-t-lg">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2FKitchen%2520Warehouse%2520Images%2520%2FSalisbury-Co-Modena-Cutlery-Set-30pc-HERO_01.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Cutlery Set" class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">HOT DEAL</div>
+                    <button class="absolute top-3 right-3 p-2 bg-white/70 rounded-full hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <p class="text-xs font-bold text-gray-500">SALISBURY & CO</p>
+                    <h3 class="font-semibold text-gray-800 mt-1 truncate">Salisbury & Co Modena Cutlery Set 30pc</h3>
+                    <div class="flex items-baseline mt-2">
+                        <p class="text-xl font-bold text-red-600">$69.95</p>
+                        <p class="text-sm text-gray-500 line-through ml-2">$149.95</p>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <!-- Star rating -->
+                        <div class="flex text-yellow-400">
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4 text-gray-300" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        </div>
+                        <span class="text-xs text-gray-600 ml-2">4.8 (13)</span>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Product Card 6 -->
+            <div class="flex-shrink-0 w-64 bg-white rounded-lg group">
+                <div class="relative overflow-hidden rounded-t-lg">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Pro-Swift-French-Door-Digital-Air-Fryer-Oven-28L-Black-LS_05.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Air Fryer" class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">HOT DEAL</div>
+                    <button class="absolute top-3 right-3 p-2 bg-white/70 rounded-full hover:bg-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+                    </button>
+                </div>
+                <div class="p-4">
+                    <p class="text-xs font-bold text-gray-500">WOLSTEAD</p>
+                    <h3 class="font-semibold text-gray-800 mt-1 truncate">Wolstead Swift Air Fryer Oven</h3>
+                    <div class="flex items-baseline mt-2">
+                        <p class="text-xl font-bold text-red-600">$299.95</p>
+                    </div>
+                     <div class="flex items-center mt-2">
+                        <!-- Star rating -->
+                        <div class="flex text-yellow-400">
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                           <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+       </div>
+        </div>
+      </div>
+      </div>
+  </div>
+ </div>
+<!-- Top Offers Section -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Section Header with Navigation -->
+        <div class="flex justify-between items-center mb-4">
+            <h2 class="text-3xl font-bold text-gray-800">Top offers</h2>
+            <!-- Navigation Buttons -->
+            <div class="flex items-center space-x-2">
+                <button id="scroll-left" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                    </svg>
+                </button>
+                <button id="scroll-right" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Horizontally Scrolling Container -->
+        <div id="offers-container" class="flex overflow-x-auto space-x-6 py-4 no-scrollbar scroll-smooth">
+
+            <!-- Card 1 -->
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEBISDxAVDxUVFhEPEA8QFRUQFRUQFRUXFhUVFhcYHSggGBolHRUVITEhJSkrLi4uFx8zODgsNygtLisBCgoKDg0OFxAQFysdHR0tLS0tLS0rKystLSsrKystKy0tKy03MC0tLS0rLS0tKy0rLS0tLS0tLSstLS0tKy0rLf/AABEIAOEA4QMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAACAAEDBQYEB//EAEYQAAIBAgQCBwUEBwUHBQAAAAECAAMRBBIhMQVxEyJBUWGBsQYykaHBQnLC0QcUI1KCsuEVM2JzkiQ0U6Kz8PElNWOU0//EABkBAQEBAQEBAAAAAAAAAAAAAAABAgQFA//EACYRAQEAAgEDAwQDAQAAAAAAAAABAhEDEiFBBDFRE1JhsSKRoTL/2gAMAwEAAhEDEQA/APWIu34RCI7+QkUQEFxoOf0Mcc4z9mvb9DKGtEsK3jEF8ZAFI6DkJIZCuwhiAzbny9IliK6nXujhfEygan2ef0MUVQba9v0MVvGQOshpbDkJME8ZDT2GvYIBwR7x5LC84NtTr3ekA2kdXYcx9YRHjBcba7m3yMAhtEu8Bh4wwPGBFT2EKCg0EfL4wHHvH+H0hQANTr3ekLL4/KBHUHu/e+hkkBxtr2/Qwsnj8oCMjpbDkJIyePykVPYchAljQde+KB2ARHc8hEDGO55CA94znbn9DEYDHbn9DAljiCI43gRJsIYka7CGICvqeS+ke8A7n+H0jwGq7DmPQxhFVOg+8PQxCBIhkNLYchJFkdPYchAKCvvH+H0hyP7R5L6QJJFX+z978LSSR1/s/e/C0BNCQwGMdIDU/dHIQoFL3RyHpDgBfrH+H0hgyJj1jyX0jq0BNuvP8JkoMhbcc/wtJIBPsZCmw5CSMdDyMCnsOQgPGjxQrrjdp5D6xXjdvkPrCHMB/s8/oYd4FTs5/QwDBhCRiEsCKmdByEOBT2HIQxChb3jyX0hCA3vHkvpCEIap9n734Wjwan2fvfhaPAJZHT2HIekkWU9X2hwlM5KmLoIy2DI1VAwNtiL3BgW8Ae8f4fSVuF9osHUYJTxlB2OgRaqFifAXuZYg9Y/w+kAxI6/2PvfhaGDI6593734WgO0FTHMAbwp6PuryHpDgUfdXkPSHAhJ6zfw+kcQX95v4fSOsgdvs8/wmSgyN915/hMMCUO+x5H0kdI6DkJJU908j6SKkdBCDij3jSK6I3b5D6xAxidfIfWVBQanZz+hjgwap0HMehgEphAyIGc2Nx/RtTBpkoxYVK11C0gBoXBNyDtoDA6KZ0HIQwYCUXKZqYWqLAoabg5hbsvYD4yoq+0NKm2TELVwx/wDmpOo8nUFSPG8irdm6x8vSEGnHh8bTq9alUWqNOtTYMPltOhXhB1Ps8/wtHvOfEYhVy5mC69p8CIS1gRcA+alb8rgSiHiiu6CnSc0jUJU1QASiAEsQD26AecyTfo/ObpKWPqqTlNqyDEDTuuwIHKabA8Q6VgzUatAKWUCsEXMSN7BidlPxnWMSoFiRpodYFVw7g2IpMGbGhrAiy4amvndix7trSywFRznFXKWVujZkGVW6oZWAJNrqy6X3vJRiV7x8ZX0sc3TuEos9Nzn6dWp2DKioylSwJ1TcX3gW8hrfZ+9+Fo1SuF1YkeNiQOZGgkfTq+QoyuMx1Uhvst3QJoLCETEfzhTUfdXkPSHAp+6OQ9IQkRA/vN/D6RCJ/eby9BHvCn7uf4TJZADqvM/ymTQGf3W5H0kdOHU91uR9IAECSKBHgGa47jGFW7bEaDfzlflT9+p8Z0UsCrKTmqHbTORM7o61MaqdBz+hjYeiEWy/M3+car2c/oZoPmi3FiLjYg6giRFos8Cmr4GvRpAcMqphyLsKVZWekb6kCxump7jK3B+2/EcO2XiWBNSne36xg1NQAd5UE3HmD4GaHpNB5QHqyCvxvtdwmrZqjgOdnRKlGuvnZWHKdvBcXRxKOMJjRXI0tUC9Ih7M+Ww+QMiqYg3Ovd6TjxVGnUILqCw92ot0dfuutmHkYA4+riEJWpRptY/aJ8iAVPrKwcQq9MKPQU8xGZVQLcrrqNVH2TvbaWFTjvRhaeNBxNM2FOso/bU2LZQpI0bvHfY3ud4V4eExXT4aocRmGpqrly3upUgFbZQRoB9o6SoN+nFicI767XVbHv0rSq4nxqgGNPFYSmCADlr4vIbHtKkkD4zb0KhZAWAVtmAOYX8D2zxL9Jh/2+t92l/01lG69ncZh61Qph8PRWwu36vikrNba+UOuk2eH4ZQVQBSrWHYpVQOXXnkP6GB/tlX/KP86z3GlGkVzYZPs4Wq336lMD+YyvxhqJcUsMiNYkDpbk9wFkAvzM0jSpxp/bL2+7p5mFUfB8Hj+merVxP7JizLhT0dQLfYZ1W+n3pplPf3a87Q4Pf5yBqWw5CFI02HISQQqFveby9BHjn3m5j0Ee0ADuvM+hkt5E268z6Q7wFVPVbkfSNaNWPVb7rekKAooo8Cg/WrHvFwp11Fza/LaWNDHAI22hUH5fnMrisTZqnMfzU/zk/DqpqdIBtmQH4g+gnjY8/Ju93oXiw+GvVz3fODVY6advf4GRJU0j1H25/Qz1cbuRxWdyYHuHxkTs3cPjCd5y1qu/nNbZ0iLNbs+P8ASQtUbuHxgPU0nO7xsE7kk7dnb4Dwg3bw/wBX9Jz9Jqef0EfpJBPhhenqATm5/alzgaQI1AOp9ZSYI/sj978UvOHHTzPrNsuxlAFgLDsAnhv6Tv8A3Ct92l/01nuVQ6Twv9Jp/wDUMRypf9JZYVY/oZ/3ut/lfjWe30jpPEf0M/71W/yh/OJ7ZR2lqRMxlRjBeutv8MtiZTdMHq02GzBGB8Ct5KqwN+4fH+kFgbHQbHt8OUkJg1D1W5H0kUAU2Gg+P9I4Ddw+P9IanSPAh1udtx2+Ai18I43bn9BCgRNe66d/b4Q9e75xPuPOOTpCI6t8radh7fCHc93zg1j1W5H0hrAa57vnFCihXmeKq3D+JT8B/DLv2VoMoqFuqamVqd/3RoSfjMyz3tzX+Rvym34Sllpg9iKvnYTxeLHe3pZ3SyBtpfbSC76DXt+hgV3tfs1kJqba9s9XH2cNTVGsLkgczOKvU0PIzs4u37Bde+VNVtPIzTJMZC5hkyFzIIQ2p5/QTmxPEqVNsj1Arfu7n4SbtPOcIehc9OGpt7pc5luOy1VCMo8CZYlT4Hj+HCOr1RTIbQVAUvrfQkWPxmo4Xj6TDq1Ua9yMrq3oZjDw3DVDenWLna6V6bm3cTbXzJjPwBGXMpqVBtpSoV9RvrnEdWXw1Mcb5/x6SxuNNZ4d+k5CMfW03Wkf+RR9JpF9nUB0cL97DhPR5A/B6hJscM41AvUpAkDwN7comeX2/o6Mfun+uL9DP+9Vv8ofzie10p5x7McOanWGanTF9L0ir/JJ6EOFq4F7Dmv5mXrv2/pOjH7v25uNcXp0Fs7qpOlmNtDprbUdsymB9o6NFQ2IxCvlyD9j+1CLlCqt0uANtz89JqcT7N0j7z28VWmvzMznE+B4MAqarP2sqkhjY3tmGw22IvM7y3vR04zy0fCuM0MUpbD1lqgWzBdGW+11Oo7fhOysOq3JvQzJ8Jo0wrU8JRahnBD1tKTabEtfMx10IvvKn+wuILWOXFV6a/vPiA6Fe2ytcnTwM2w9EEUjwmbIA5zEaZiLFvEiwsfISPiWK6KjUqWvkUsB3nsHxtFuptUqjVuf0Edh3WJ7ATa5mf8AY3i5royVGLVFu5Y/aUn6XA8xKH2noVkrO1Qkq7HoqtwRlvfL4WFh2Tm5PUzHjmcm4zvttY4/2grEsabUqaoWGqtUDW362mnJZWcU40+KNMWKUwyGqEvYa2Ym9rm4Nh4SbgD0tFrUc4uevmNu/VbWO3bvaT8Y4barUpl2JqBalJmqN1rElvC+vd9ZxTkzzw6urtWdr3D8YpVX6NWKs1wudWQE9wJG/hO7h/DXRnLVC4JORSScqnYG+/bPMqL1UYpUYUirKLr+2S1xZst7gjTcz0DgDVFIy4g16ZzAq6aq1/ssNbDaxnZwc9zurGpkuv1do8m6U90U61eOYFMzr3Byx+6oIPrNvg6l8h2uF05zFcC1QsdiT/p3b+W3nNbhKpyoTvYHzni8V/lk9POdosMSdDznNm25yd6ZYXHxOg+MiNIjuPIz0fqYzUtcfTb4S8Ub9gOZlVUPV8jLHij/ALAczKuoer5H0n0tYkJjObE2KkEM3+W/Rt5G4+FxJXOkhvGzSuw2HHSaYqug1zU8RSNRb9wqKp+ZnXhcGald6X61THVBZSj03sTplJJFrdpAgu2/M/SFwtL1zUBLHKKZ7RYH12HlNS7Zs0tWwSkWqJSrDXrFqNSw82zfKcnBfZyhVau1bCIAXApqygEKFBuCOw3Gx753YancHmdLkXFzppLnCm7XCZFsqgXJ2LG2tj2/PwmkUVb2Pwqm6K1PwRyB87zFYzi64fEVESkz5GZAWrVFuB35bH5z1PEDeeQ+0+DqDF1z0bkF7hsrWIIB0NtZYlbb2bxNLE1FQ0wGYXAapXOy3PvOe2bfA8OpZR+zUeG/rMZ7HIUqU2yj3FOZhqC1PX5zf4TRReIIzwyjf+6U8wJ5T7Wa1NybO6hT3aW5AWP+qevlp5V+kGgBlqioAWaqDTG6i51tvtbzBny5v+Uq99jKgOHp306gRbb3BA7NvdM0VRQEawA0a9tOyZfBY0UsM1XC0xiAuiU1PRZhmAJFwbHc2tI+Ee24ruKVTCVKJcFVYPTqpt2m4PwBmsfaLGqx+K6Kk9S2bIpbLfLe3ZfsmL9pPajpsOKaUjTz+8SwJBUg5QANRtqbdvdNL7RYFq+HKUspe6shYlbEHWxGxtcec85xrdULUqjMMygKpIGrMesB1t738Zyep5Msbqe1jOW03CiVBN7XDI+u63vrbs0GnKKi7MoFhc6AH3Rz+Eq8Kw69mawysRsDvrr4gDznXhaRYkCoNNbsN/l4TzbbO3h81hTZ6bWRgdrg3213vaw/OWnFcVVrBHKKrU12W5Yi1yR3aHXWZzg9M4ivkbcZmY9uRRYAefreW7VqlIP1bkOcjE7i1iumumnxk7yWT2pte8KwoekDUU9YXU7MviP6zv8AZ/BVqNdgWFSkyEg+7ZwVtcdhtfbulRwes7WNj1rEHfQ9pPZNhgd56XpZjlJZPby+mPd29L4CKcljHnc28uWmadIC3YFtptoW+NgOYM1nCaIITML2CixPbc7/AAmKrYq7Bb75R55rk/G/xmr4Xieqe0EnW17an854uE7WvSy8LvizEU+qco/eHYBrYeM4MNXfJlp0yb6sWJY28Sdzbfx0HbboqYoOLtlf7Vrdu17f0kicSG3RueQNp8s5/LbU9tacvF6Z6Ha1iWPxtKpj1PIy94piQaDZwQNgLb321v4ShJ6nlPS9Plbj3cnLNULNIWJ1sC3+FdSeQkhkL/8AdtPmNp0Pkqa3Gaavlqh6BJNumRkB5HYyfC45Fc9FUIdr2VBnzEf4Nu7WTPUq7dMxUHRHSnUGniy5vnJMLUJxKEIijKwYqoFtRYA72Pd4Tc14Yu1/haNc0xZ6eoBKuhDAkajMrW87TlotiGrGgtElwoqXWqoGUki+u222+suKNNct8ttOx63d/mQPZzBlMUarrkaqGX3mbNlHUbrElSVDAjbqiaRkuLYfELUIerWoE65RVdvhkJErMJw6vWJ6LEVW1sT09dficlh8ZqPat/8AaGuNr68wB/3zmf8AZTEKtVSwurZk1+yzs2U/LL/FGxacF9nMUtVH6ctlIJBxTuD4Fbaz03C4hgihqQuBYnNe5+EzPA7Zurtc2tNQIhYF8U52RV5kt6WmO9tcKrBWxFSmlycpULTYaWPWYm4msxVcU0Zz2C4vtfYfO0w/FeH1goxFWnhq7vey4mnnKA6gXGvle0Wb9xzcHxGDpADpkNgVGdgwF9DYWKg2J7NZfYPC0QhqUMliGOakAATzH0tK/A4jGVFAQ4TDi32KLuABbZQyd/jLOvi6y9FTqutZWDpmCCmUcIXBFj7pCkW5GTsLFTbQbd0wVb2Vq/rATKWpltKg1UJ25u427O2bgtCV58uXix5Nb8JZt59x/ghpVgALoc5RvAEaHxE5kwJyWtbNYg7aL2/H0nolc3UjsJYEd41Ez6eyeGV2qp0tN20YrVdgbm/uvmG/ZtOLk9H3vTWbgouD2w9QsQAcpF9swJHVF9NSBr2XlnSqvXdgqZRujFu1Q17qLix0O/ZrvOPidGkr2pVOkWwFwVazE9pA35d8vOAcDWt/f5SjLdaa1LO1jcaKbgAjX4d85uPC3PoZ/CXgOEYMzMMotlVNN9z5TRYXQwOJAK6hRYZfrI6b6ievx8c450x9JNLWwinPmin12rw5a3WBHZm9Bb8M2HA8YVptY5ToQ3iR46f+Zn/Z/hj4hslIAm9szdVRfYE9l8uk2PDeAYmlSqE0DV1saalGLKBbMuuo+B02nl48OVm5HoZcmM96lw2OqKou2a1+sxXX7y208pZYDH06oNrBhup15lb7zN0cWoJBw+LQjcMjvbyubR8NxVBUUU0sS1mzWUjxYbifOcHLvXSXl4/ld8YGemxVrqLHuW4B2PadeUo2PV8ptaXCkqLZ6jMpAJCgID8bmdVL2bw1taZbm7/Qzv4eHLGd3Lyckt7MAZA82/GeFUUHUpBdD3t6mY39WdiRmX/Qn5T7dD59Tj7+ZhYH++Ud+nzhcVwTpaz2vroqj0EraAYMDnNxsRoflLMdJbt6JS2mU9nqj0OJN0tUdGDUFybAX2uDzhUscyj+9f8A1X9Zz4Sh0js9Rrki5bvPZoLdgmkdHtNmq1Wagpq30HRgt8xK3hPsvXAV6w6ILlbKSCzFTcCw2F++XWDx5pkhUVlHbcofrLPhvGqWIY0wGpuAXFOoAMyA2LIQSGAJF9bi4uNRAL2ZourZSNLk38N5pK3EaSAZqi67AdZjyVbk+UzXtNSboCMjtTs/TdH72wyi1iSupvYHYaTPtSSqQDVqOw16lSkzjS2qgow0A0yjv3iTRbtsuL4zpaTJTp1DmKpcraxzA9ZScw2PZIPaKlXNPSgCFJJzVFBtt3W+cz+D4d0JLJUq5yCFastVQDckN9oE3O8tK2IqOP76kx/xVXXXzSVEfCqdZQP2dPY6GuO8dykdkDjWJdOid6Oi1Q1qTiszDK6sqoACxsxPlOQ4LHE9XE4JR3ZmY/O0sMDwfE9IKlR6VQqpRMjqoQG2YgE6k2A32vGjYsdxinSCtUFVVb7XQ1gBt71103k2E4lSqAGnUVgdBY7nuHjofhLBOD1N3rKvLs88xHykbYLDDMHqCsWFnUDpWI+6o02HZ2CTpEL6j+Jj8zCrUc6MobLmFrjXTt+WnnI6dGwsqkKL5c7Z2y+J7/MyPE8Qo0ADWqpSBJCh2sWO9lG7HwExZvsvhxUvZzLTcDLVa3UBGUA94197u1A7528A4EyOtSroV91L3N+8kaaSqxHt7QX+6w+Ir+Ip9EvxqEH5TlH6R6lxbhdUgmwPSAj4hLD4z5Y+lwllk9mdRsuKa1F+74d575BSNmGn8sqqntNRfKzqUJsrLYkJub5mC3HKddOurZHQq6tfK6kMDZip1HcQRPtWl1n/AO9IpyfrA7ooGPwfCRQbNRarSOxyki47jcTvbilWjTQ0qC16i3HS1qppudTuVTrd2pE7StIG6OxYjqh3ZgTyvIuEcTWo1RCFcDrBsot3EfKcHB6nd6da/wBdfJxdt+6Ph3tliXJTGYF1B0FSgy1BfxVjpzBPKcuJxLVaovQOS561U0WZRbsUKSB2dVgdZcVXp/8ADT4CUXFq1mzJse7sM7sM7brJz5Y67xquCVTYAFXAuOqSCB4htfn8Zdrj6YsGcKScoDdW7HYa9vhPKcTxJywemxVwAoK6Gw7CQNr23v28pf8A6/SrqBiUDkWOYXsWG2cDex7Z9NsNVx11K6MDvsRMthaPWPZznTwtERi9MlL9VqYd3QgA2OVjZWv2jeXK1oGZ9oKN8uXXTs19Jnxgal9KTnkjH6T0oPJFMg86XhGIYdWhUPNSv81pZYL2cxOWxQJffMy/S5m5Ux7wMrS9lWy2eqF78gzc9TaScN4ZhaDGolRWcgp0j1FJCXvlXsUaC9t7C97CaR6WYEEkX0uNDOc8LX95vj/STLq8NYzHy5K1VGpuodGupFgym+nOVnDqStSAZQwzPcMAw9898u63DlVHILaKTqfCZ/2dfNRB/wAdUf8AO0TflMteHavCcP2YemviihD8VtHPCaJ0/aj7teuvo87AsILNMuJOBUf3q/8A9nE//pO3D8JpjbpD96rVb1aSqJOkKqOOYOm2GqGkVFkqHpFN7FLkjNrbVSPDWcWA4tU6JFqUFWpaxynKGI7QoUtfwtLLBcGFKk1IMcjUUw2UbBUBXML7HUm3eYJ4PTGUAvlAOdLgCoe+obZm5E28IFfTpVat71ci6gin1fLS5v8AxLygrwymD1KZVu1qi5if4gST53mk6MWta3YANBaN0cmkY3iFDEqCKOE6ff3cRUo7+DUgPmZXLgOLOerSpYZSet0lbpGI5oLj4T0UJHySjL4f2XUhTWq1qjbspqkofDqqtx5XlpS4YiKEpotNVvlVRYC5ufnLEpEFk0K3+zz+9/yiNLS0UdMGexns7Uaw6VABuvR3HgR1tI2C4KaWbrFibXNgJq8sY0p8MfTYY95H2vNlfdkcTgmlXisK1iLbz0A0B3QDhF/dE19JPqPHq+ErqfczjvW3obfWNSx1RDrScc1YfSewHAJ+6PhG/s6n+6PhN9N+U658PMsL7SAb6ef5iW2G9pVPYfiv5zcf2fT/AHR8I4wFP9xfgI6cvk6sfhmKPHAdlPmR9JZYbiBbZfmfylyuGUbKByEkAjpy+Tqx+HDTeodlt5E/lOilQY+8beH/AI/OT5oJqRMfmlzniJdBBJnO+IAkD44TbDrxC3puO9WHxBmd4Pg+ioom5F7nvJNyZb/rgKnkfSUuD4krX1GhtAtQI4gJUBGhhAwCBk9IznBktMyjoaQMJLeA24kEhgyUrBKwgY8WWOBABhEBCMa0Bo8VopR02j5YUUJsOWNaHFAC0REONAC0UOK0AIJkkVoEBEidJ2Wiywu1VVoEzjqYNpoMsbIINqAYVgpt3GZl+BYhWJyLV7jfI35fOei5BH6ETOWMvu1jncfZhqCVlGtOsvK9T0JE6kxFQf8AE80H1Wa7ohEacx9L83+2/q/if0y64l+9/wDQPyndh3c/v/6R+UuDTEQWX6f5qfU/EcK02PY3mSJNRoW1Nh22E6bRESzjiXkoS0EmHkiyTbCO8UkCR8sIhMQkuWLLAjjSXLFAmig3jZoBxQc0bNAOKR5os0CSKR5os0A4oGeNmlEkUjzxw8gONBzRZoBiHIg0LNAIwTEWg5oDmNGLRs0AooOaLNAKNBzxs8A4oGeLPAOPaR54s8CS0aD0kUBRoooCjRRQpjFFFCGjxRQpRjFFCFHEUUBRCNFAIQoooUjGiigCY0UUBRoooDRjHigMYjHigMYoooCiiigf/9k=" 
+
+                         alt="Scangan Coppernox loose cookware" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">60% OFF RRP</div>
+                </div>
+                <div class="mt-3">
+                    <h3 class="text-base font-semibold text-gray-800">Scangan Coppernox loose cookware</h3>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="data:image/jpeg;base64,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"
+
+                         alt="Salisbury & Co Brew sets of 2" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">UP TO 60% OFF RRP</div>
+                </div>
+                <div class="mt-3">
+                    <h3 class="text-base font-semibold text-gray-800">Salisbury & Co Brew sets of 2</h3>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="data:image/jpeg;base64,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"
+
+                         alt="Wolstead Superior+ loose cookware" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">60% OFF RRP</div>
+                </div>
+                <div class="mt-3">
+                    <h3 class="text-base font-semibold text-gray-800">Wolstead Superior+ loose cookware</h3>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_Recipe_square_webp%2Fv1729503155%2FKitchen%2520Warehouse%2520Images%2520%2FSalisbury-Co-Signature-Range-LSD_02.webp&w=384&q=75"
+                         alt="Salisbury & Co Signatura crockery and glassware" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">UP TO 65% OFF RRP</div>
+                </div>
+                <div class="mt-3">
+                    <h3 class="text-base font-semibold text-gray-800">Salisbury & Co Signatura crockery and glassware</h3>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FChasseur-Round-French-Oven-28cm-6-1L-Chilli-Red_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=750&q=75"
+                     
+                         alt="Selected Chasseur" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">60% OFF RRP</div>
+                </div>
+                <div class="mt-3">
+                    <h3 class="text-base font-semibold text-gray-800">Selected Chasseur</h3>
+                </div>
+            </div>
+            
+            <!-- Card 6 -->
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-lg overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2Fv1741054435%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Palette-Stand-Mixer-Denim-HERO_V2.jpg%3Fimagetype%3Dpdp_full&w=750&q=75"
+
+                         alt="Wolstead Palette stand mixers and attachments" 
+                         class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">50% OFF RRP</div>
+                </div>
+                <div class="mt-3">
+                    <h3 class="text-base font-semibold text-gray-800">Wolstead Palette stand mixers and attachments</h3>
+                </div>
+            </div>
+
+        </div>
+    </div>
+        
+        <!-- Add more offer cards as needed -->
+      </div>
+     <body class="bg-gray-50 font-sans">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-12">
+            <div class="mb-6 md:mb-0">
+                <p class="text-sm text-red-600 font-semibold mb-2">Father's Day gift ideas for coffee lovers</p>
+                <h2 class="text-4xl font-extrabold text-gray-900 tracking-tight">KitchenAid espresso machines</h2>
+                <p class="mt-4 text-gray-600 max-w-2xl leading-relaxed">
+                    If your dad treasures his daily coffee ritual, KitchenAid espresso coffee machines are the perfect way to elevate his brew, making every cup smoother, richer and easier than ever before!
+                </p>
+            </div>
+
+            <div class="flex items-center space-x-4 pt-1">
+                <a href="#" class="text-sm font-bold text-gray-800 hover:underline whitespace-nowrap">Shop now</a>
+                <div class="flex items-center space-x-2">
+                    <button id="scroll-left" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button id="scroll-right" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 lg:gap-x-12">
+
+            <div class="lg:col-span-5 mb-8 lg:mb-0">
+                <div class="relative rounded-md overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1755138856%2Fczxj35d2dte90x1fxce1.webp&w=1080&q=75" alt="A person making espresso with a KitchenAid machine" class="w-full h-full object-cover">
+                    <div class="absolute top-3 left-3 bg-gray-900 text-white text-[10px] font-bold px-2.5 py-1 rounded-sm tracking-wider">TOP GIFT PICK!</div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-7 flex flex-col justify-between">
+                <div>
+                    <div class="mt-4 h-1 w-full bg-gray-200 rounded-full overflow-hidden mb-6">
+                        <div id="progress-bar" class="h-1 bg-gray-800 rounded-full" style="width: 0%;"></div>
+                    </div>
+                </div>
+
+                <div id="product-container" class="flex overflow-x-auto space-x-6 pb-4 no-scrollbar scroll-smooth">
+                    
+                    <div class="flex-shrink-0 w-[220px] group">
+                        <div class="relative bg-gray-100 rounded-md p-2">
+                            <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FKitchenAid-KES8557-Fully-Automatic-Espresso-Machine-Stainless-Steel_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=750&q=75" alt="KitchenAid KES8557 Fully Automatic Espresso Machine" class="w-full h-auto rounded-sm">
+                            <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                            <div class="absolute bottom-3 left-3 bg-white text-green-700 text-xs font-bold px-2 py-1 rounded-sm border border-green-200">FREE SHIPPING</div>
+                        </div>
+                        <div class="mt-3 text-sm px-1">
+                            <h3 class="font-semibold text-gray-800 leading-snug">KitchenAid KES8557 Fully Automatic Espresso Machine Stainless Steel</h3>
+                            <p class="text-gray-500 mt-2 text-xs">RRP $2299</p>
+                            <p class="font-bold text-lg text-gray-900">$1899.95 <span class="text-red-600 font-semibold text-xs">(14% OFF RRP)</span></p>
+                            <div class="flex space-x-2 mt-2">
+                                <span class="w-5 h-5 rounded-full bg-gray-300 border-2 border-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-gray-800 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-slate-600 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                            </div>
+                            <div class="flex items-center mt-2 text-yellow-500">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <span class="text-gray-500 text-xs ml-1 font-medium">5 (1)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-shrink-0 w-[220px] group">
+                        <div class="relative bg-gray-100 rounded-md p-2">
+                            <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FKitchenAid-Semi-Automatic-Espresso-Machine-w-Burr-Grinder-Stainless-Steel_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=750&q=75" alt="KitchenAid Semi Automatic Espresso Machine" class="w-full h-auto rounded-sm">
+                            <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                            <div class="absolute top-3 left-3 bg-white text-gray-800 text-xs font-bold px-2 py-1 rounded-sm border border-gray-200">ONLINE ONLY</div>
+                            <div class="absolute bottom-3 left-3 bg-white text-green-700 text-xs font-bold px-2 py-1 rounded-sm border border-green-200">FREE SHIPPING</div>
+                        </div>
+                        <div class="mt-3 text-sm px-1">
+                            <h3 class="font-semibold text-gray-800 leading-snug">KitchenAid Semi Automatic Espresso Machine w/ Burr Grinder Stainless Steel</h3>
+                            <p class="text-gray-500 mt-2 text-xs">RRP $999</p>
+                            <p class="font-bold text-lg text-gray-900">$899.95 <span class="text-red-600 font-semibold text-xs">(10% OFF RRP)</span></p>
+                            <div class="flex space-x-2 mt-2">
+                                <span class="w-5 h-5 rounded-full bg-gray-300 border-2 border-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-white border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-gray-800 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-red-700 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                            </div>
+                            <div class="flex items-center mt-2 text-yellow-500">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                                <span class="text-gray-500 text-xs ml-1 font-medium">5 (1)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-shrink-0 w-[220px] group">
+                        <div class="relative bg-gray-100 rounded-md p-2">
+                            <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FKitchenAid-KES8558-Fully-Automatic-Espresso-Machine-Stainless-Steel_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=750&q=75" alt="KitchenAid KES8558 Fully Automatic Espresso Machine" class="w-full h-auto rounded-sm">
+                            <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                            <div class="absolute top-3 left-3 bg-white text-gray-800 text-xs font-bold px-2 py-1 rounded-sm border border-gray-200">ONLINE ONLY</div>
+                            <div class="absolute bottom-3 left-3 bg-white text-green-700 text-xs font-bold px-2 py-1 rounded-sm border border-green-200">FREE SHIPPING</div>
+                        </div>
+                        <div class="mt-3 text-sm px-1">
+                            <h3 class="font-semibold text-gray-800 leading-snug">KitchenAid KES8558 Fully Automatic Espresso Machine Stainless Steel</h3>
+                            <p class="text-gray-500 mt-2 text-xs">RRP $2599</p>
+                            <p class="font-bold text-lg text-gray-900">$2249.95 <span class="text-red-600 font-semibold text-xs">(13% OFF RRP)</span></p>
+                            <div class="flex space-x-2 mt-2">
+                                <span class="w-5 h-5 rounded-full bg-gray-300 border-2 border-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-gray-800 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-slate-600 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="flex-shrink-0 w-[220px] group">
+                        <div class="relative bg-gray-100 rounded-md p-2">
+                            <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FSupplier%2520Images%2520%2F2000px%2FKitchenAid-KES8558-Fully-Automatic-Espresso-Machine-Juniper_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=750&q=75" alt="KitchenAid KES8558 Juniper" class="w-full h-auto rounded-sm">
+                            <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                            <div class="absolute bottom-3 left-3 bg-white text-green-700 text-xs font-bold px-2 py-1 rounded-sm border border-green-200">FREE SHIPPING</div>
+                        </div>
+                        <div class="mt-3 text-sm px-1">
+                            <h3 class="font-semibold text-gray-800 leading-snug">KitchenAid KES8558 Fully Automatic Espresso Machine Juniper</h3>
+                            <p class="text-gray-500 mt-2 text-xs">RRP $2599</p>
+                            <p class="font-bold text-lg text-gray-900">$2249.95 <span class="text-red-600 font-semibold text-xs">(13% OFF RRP)</span></p>
+                            <div class="flex space-x-2 mt-2">
+                                <span class="w-5 h-5 rounded-full bg-gray-300 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-gray-800 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-green-900 border-2 border-gray-400 ring-1 ring-gray-400 cursor-pointer"></span>
+                                <span class="w-5 h-5 rounded-full bg-rose-200 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<body class="bg-white font-sans">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="mb-12">
+            <p class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Browse your way</p>
+            <h2 class="text-3xl font-bold text-gray-900 mt-1">Shop by category</h2>
+        </div>
+
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_1000x1000%20Category%20Tile%2Fv1748319312%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead_Rapido_1000x1000px.jpg&w=256&q=75" alt="Appliances" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Appliances</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Fv1741665304%2FKitchen%2520Warehouse%2520Images%2520%2FAll_Cookware_Autumn.webp&w=256&q=75" alt="Cookware" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Cookware</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_1000x1000%20Category%20Tile%2Fv1744275202%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Calibre-6pc-Knife-Block-Set-LS_01.jpg&w=256&q=75" alt="Knives" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Knives</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_1000x1000%20Category%20Tile%2Fv1748319304%2FKitchen%2520Warehouse%2520Images%2520%2FSalisbury_Co_Luca_1000x1000px.jpg&w=256&q=75" alt="Tableware" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Tableware</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Fv1740718006%2FKitchen%2520Warehouse%2520Images%2520%2FNew_In_Drinkware.webp&w=256&q=75" alt="Drinkware" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Drinkware</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fwww.kitchenwarehouse.com.au%2F_next%2Fimage%3Furl%3Dhttps%253A%252F%252Fmedia.kitchenwarehouse.com.au%252Fimage%252Fupload%252Fv1740707516%252FKitchen%252520Warehouse%252520Images%252520%252FMix_and_Measure.webp%26w%3D256%26q%3D75&w=256&q=75" alt="Kitchenware" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Kitchenware</div>
+            </a>
+            
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Fv1741679131%2FKitchen%2520Warehouse%2520Images%2520%2FNew_In_Bakeware_Autumn.webp&w=256&q=75" alt="Bakeware" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Bakeware</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative">
+                <img src="https://kwh-kitchenwarehouse.netlify.app/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Fv1740722649%2FKitchen%2520Warehouse%2520Images%2520%2FHealth_and_Wellness.webp&w=256&q=75" alt="Home and living" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                <div class="absolute bottom-4 left-4 text-white text-base font-semibold">Home and living</div>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative bg-gray-100 flex flex-col items-center justify-center text-center p-4">
+                <h3 class="text-xl font-bold text-gray-900 leading-none">HALF PRICE</h3>
+                <p class="text-sm text-gray-700 mt-1 leading-none">OR BETTER</p>
+            </a>
+
+            <a href="#" class="group block aspect-square rounded-md overflow-hidden relative bg-red-600 flex items-center justify-center p-4">
+                <h3 class="text-3xl font-bold text-white">SALE</h3>
+            </a>
+        </div>
+    </div>
+
+</body>
+    <!-- Bestsellers Section -->
+   <body class="bg-white font-sans">
+
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-8">
+            <div class="mb-4 sm:mb-0">
+                <p class="text-sm text-gray-500 font-semibold uppercase tracking-wider">Trending Now</p>
+                <h2 class="text-4xl font-extrabold text-gray-900 mt-1">New and noteworthy</h2>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-sm font-bold text-gray-800 hover:underline whitespace-nowrap hidden md:block">Shop all new arrivals</a>
+                <div class="flex items-center space-x-2">
+                    <button id="scroll-left" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button id="scroll-right" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="product-scroller" class="flex overflow-x-auto space-x-4 sm:space-x-6 pb-4 no-scrollbar scroll-smooth">
+            
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-md p-4 mb-2">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Teppanyaki-Grill-LS-LOGO_01.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Wolstead Teppanyaki Grill" class="w-full h-auto rounded-sm">
+                    <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                    <div class="absolute bottom-3 left-3 bg-white text-gray-800 text-xs font-bold px-2 py-1 rounded-sm border border-gray-200">NEW</div>
+                </div>
+                <div class="text-sm px-1">
+                    <h3 class="font-semibold text-gray-800 leading-snug">Wolstead Teppanyaki Grill</h3>
+                    <p class="text-gray-500 mt-2 text-xs">RRP <span class="line-through">$199.95</span></p>
+                    <p class="font-bold text-lg text-gray-900">$199.95 <span class="text-red-600 font-semibold text-xs">(29% OFF RRP)</span></p>
+                    <div class="flex items-center mt-2 text-yellow-500">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <span class="text-gray-500 text-xs ml-1 font-medium">5 (1)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-md p-4 mb-2">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Bonn-Steak-Plate-32x27cm-Set-of-2-HERO_01.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Wolstead Bonn Steak Plate Set" class="w-full h-auto rounded-sm">
+                    <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                    <div class="absolute bottom-3 left-3 bg-white text-gray-800 text-xs font-bold px-2 py-1 rounded-sm border border-gray-200">NEW</div>
+                </div>
+                <div class="text-sm px-1">
+                    <h3 class="font-semibold text-gray-800 leading-snug">Wolstead Bonn Steak Plate 32x27cm Set of 2</h3>
+                    <p class="text-gray-500 mt-2 text-xs">RRP <span class="line-through">$49.95</span></p>
+                    <p class="font-bold text-lg text-gray-900">$49.95 <span class="text-red-600 font-semibold text-xs">(29% OFF RRP)</span></p>
+                    <div class="flex items-center mt-2 text-yellow-500">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <span class="text-gray-500 text-xs ml-1 font-medium">5 (1)</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-md p-4 mb-2">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Crystal-Ice-Nugget-Maker-17kg-HERO-LOGO_01.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Wolstead Crystal Ice Nugget Maker 1.7kg" class="w-full h-auto rounded-sm">
+                    <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                    <div class="absolute bottom-3 left-3 bg-white text-orange-600 text-xs font-bold px-2 py-1 rounded-sm border border-orange-200">BONUS OFFER</div>
+                </div>
+                <div class="text-sm px-1">
+                    <h3 class="font-semibold text-gray-800 leading-snug">Wolstead Crystal Ice Nugget Maker 1.7kg</h3>
+                    <p class="text-gray-500 mt-2 text-xs">RRP <span class="line-through">$549.95</span></p>
+                    <p class="font-bold text-lg text-gray-900">$399.95 <span class="text-red-600 font-semibold text-xs">(29% OFF RRP)</span></p>
+                    <div class="flex items-center mt-2 text-yellow-500">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <span class="text-gray-500 text-xs ml-1 font-medium">5 (1)</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-md p-4 mb-2">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Fq_auto%2FSupplier%2520Images%2520%2F2000px%2FLe-Creuset-Signature-Round-Cast-Iron-Casserole-24cm-Nuit_1_2000px.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Le Creuset Signature Cast Iron Round Casserole" class="w-full h-auto rounded-sm">
+                    <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                    <div class="absolute bottom-3 left-3 bg-white text-orange-600 text-xs font-bold px-2 py-1 rounded-sm border border-orange-200">BONUS OFFER</div>
+                </div>
+                <div class="text-sm px-1">
+                    <h3 class="font-semibold text-gray-800 leading-snug">Le Creuset Signature Cast Iron Round Casserole 24cm - 4.2L</h3>
+                    <p class="font-bold text-lg text-gray-900">$640</p>
+                    <div class="flex space-x-1 mt-2">
+                        <span class="w-4 h-4 rounded-full bg-[#18314F] border-2 border-gray-400 cursor-pointer"></span>
+                        <span class="w-4 h-4 rounded-full bg-gray-600 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                        <span class="w-4 h-4 rounded-full bg-pink-500 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                        <span class="w-4 h-4 rounded-full bg-red-600 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                        <span class="w-4 h-4 rounded-full bg-gray-300 border-2 border-white ring-1 ring-gray-400 cursor-pointer"></span>
+                        <span class="text-gray-500 text-xs ml-1 font-medium">+8</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-shrink-0 w-64 group">
+                <div class="relative bg-gray-100 rounded-md p-4 mb-2">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fkitchenwarehouse%2Fimage%2Fupload%2Fc_fill%2Cg_face%2Cw_1250%2Ff_auto%2Ft_PDP_2000x2000%2FKitchen%2520Warehouse%2520Images%2520%2FWolstead-Stonetek-Ultra-10pc-Cookware-Set-Black-HERO_01.jpg%3Fimagetype%3Dpdp_full&w=384&q=75"
+                     alt="Wolstead StoneTek Ultra 10pc Cookware Set" class="w-full h-auto rounded-sm">
+                    <div class="absolute top-3 right-3 p-1.5 rounded-full bg-white hover:bg-gray-200 cursor-pointer"><svg class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg></div>
+                    <div class="absolute bottom-3 left-3 bg-white text-gray-800 text-xs font-bold px-2 py-1 rounded-sm border border-gray-200">NEW</div>
+                </div>
+                <div class="text-sm px-1">
+                    <h3 class="font-semibold text-gray-800 leading-snug">Wolstead StoneTek Ultra 10pc Cookware Set</h3>
+                    <p class="text-gray-500 mt-2 text-xs">RRP <span class="line-through">$799.95</span></p>
+                    <p class="font-bold text-lg text-gray-900">$499.95</p>
+                    <div class="flex items-center mt-2 text-yellow-500">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
+                        <span class="text-gray-500 text-xs ml-1 font-medium">5 (1)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!-- Moreway Section -->
+ <title>More Ways to Save</title>
+   <body class="bg-white font-sans">
+    
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div class="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-8">
+            <div class="mb-4 sm:mb-0">
+                <p class="text-sm text-gray-500 font-semibold uppercase tracking-wider">More ways to save</p>
+                <h2 class="text-4xl font-extrabold text-gray-900 mt-1">Check out these deals</h2>
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-2">
+                    <button id="scroll-left" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button id="scroll-right" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex overflow-x-auto space-x-6 pb-4 no-scrollbar scroll-smooth">
+            
+            <div class="flex-shrink-0 w-[350px]">
+                <div class="relative rounded-md overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1753428065%2Frtt7flkpgfaqn9lvtjfa.webp&w=640&q=75"
+                     alt="Bundle and save" class="w-full h-auto object-cover rounded-md">
+                </div>
+                <div class="mt-4">
+                    <h3 class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Exclusive deals</h3>
+                    <h4 class="text-xl font-bold text-gray-900 mt-1">Bundle and save</h4>
+                    <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+                        Take advantage of our exclusive bundle and save offers! When you purchase selected items, you'll unlock special discounts that help you get more for less.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-sm font-bold text-gray-800 hover:underline">Shop now &rarr;</a>
+                </div>
+                <div class="mt-4 h-[2px] w-full bg-gray-200 rounded-full overflow-hidden">
+                    <div class="h-[2px] w-full bg-gray-800 rounded-full" style="width: 35%;"></div>
+                </div>
+            </div>
+
+            <div class="flex-shrink-0 w-[350px]">
+                <div class="relative rounded-md overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1752025449%2Frfmcvspf1dt984qqynk2.webp&w=640&q=75"
+                     alt="Wolstead chopping boards" class="w-full h-auto object-cover rounded-md">
+                </div>
+                <div class="mt-4">
+                    <h3 class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Pair and save</h3>
+                    <h4 class="text-xl font-bold text-gray-900 mt-1">Wolstead chopping boards</h4>
+                    <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+                        Protect and condition with the Wolstead Cutting Board Food Safe Mineral Oil 250ml, now 30% off RRP when you purchase it together with selected Wolstead boards.
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-sm font-bold text-gray-800 hover:underline">Shop now &rarr;</a>
+                </div>
+                <div class="mt-4 h-[2px] w-full bg-gray-200 rounded-full overflow-hidden">
+                    <div class="h-[2px] w-full bg-gray-800 rounded-full" style="width: 35%;"></div>
+                </div>
+            </div>
+
+            <div class="flex-shrink-0 w-[350px]">
+                <div class="relative rounded-md overflow-hidden">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1752114578%2Fv4g7p4k9egj1rs82i0ge.webp&w=640&q=75"
+                     alt="Wolstead Cultivo Yoghurt Maker" class="w-full h-auto object-cover rounded-md">
+                </div>
+                <div class="mt-4">
+                    <h3 class="text-xs text-gray-500 font-semibold uppercase tracking-wider">Bonus offer</h3>
+                    <h4 class="text-xl font-bold text-gray-900 mt-1">Wolstead Cultivo Yoghurt Maker</h4>
+                    <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+                 Receive a bonus Wolstead Cultivo Yoghurt Pot with Silicone Lid 170ml, set of 6 with every purchase of the Wolstead Cultivo Yoghurt Maker 1.5L. 
+                    </p>
+                    <a href="#" class="mt-4 inline-block text-sm font-bold text-gray-800 hover:underline">Shop now &rarr;</a>
+                </div>
+                <div class="mt-4 h-[2px] w-full bg-gray-200 rounded-full overflow-hidden">
+                    <div class="h-[2px] w-full bg-gray-800 rounded-full" style="width: 35%;"></div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+
+<!-- Featured  Section -->
+ <section class="w-full max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <header class="flex justify-between items-center mb-6">
+            <div>
+                <p class="text-sm text-red-600 font-medium">Names you know and love</p>
+                <h2 class="text-3xl font-bold text-gray-900">Featured brands</h2>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="#" class="text-sm font-semibold text-gray-800 hover:text-black hidden sm:block">Explore all brands</a>
+                <!-- Navigation Buttons -->
+                <div class="flex items-center space-x-2">
+                    <button id="prev-btn" class="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                        </svg>
+                    </button>
+                    <button id="next-btn" class="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition duration-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Brands Carousel Container -->
+        <div id="brands-container" class="relative overflow-x-auto no-scrollbar scroll-smooth">
+            <div class="flex space-x-4 pb-4">
+                <!-- Brand Item 1: Ninja -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1755235904/c2blshb4lgf5mejsbkpf.webp?w=256&q=75"
+                     alt="Ninja" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">NINJA</div>
+                </a>
+                <!-- Brand Item 2: Victoria -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1742533824/is9jfggnrhakss8tynat.webp?w=256&q=75" 
+                    alt="Victoria" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">VICTORIA</div>
+                </a>
+                <!-- Brand Item 3: Global -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1739354686/pl60mmkmcasijhebwm59.webp?w=256&q=75"
+                     alt="Global" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">GLOBAL</div>
+                </a>
+                <!-- Brand Item 4: De'Longhi -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1755235950/urdyiyn8xphebw3g911i.webp?w=256&q=75"
+                     alt="De'Longhi" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">De'Longhi</div>
+                </a>
+                <!-- Brand Item 5: Scanpan -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1739354686/lxysbi4kkrjxufn6x8zy.webp?w=256&q=75" 
+                    alt="Scanpan" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">SCANPAN</div>
+                </a>
+                <!-- Brand Item 6: Wolstead -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1755236036/tahpdvc05m0hnu0wqtt7.webp?w=256&q=75" 
+                    alt="Wolstead" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">WOLSTEAD</div>
+                </a>
+                <!-- Brand Item 7: KitchenAid -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1739354986/imnfyahcns7g6jhweixk.webp?w=256&q=75" 
+                    alt="KitchenAid" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">KitchenAid</div>
+                </a>
+                <!-- Brand Item 8: Joseph Joseph -->
+                <a href="#" class="flex-shrink-0 w-48 h-48 relative rounded-lg overflow-hidden group">
+                    <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1739354986/txbqhrgexiibxwza0ium.webp?w=256&q=75" 
+                    alt="Joseph Joseph" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    <div class="absolute bottom-4 left-4 text-white font-bold text-lg">Joseph Joseph</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+     <!-- Recipe Card -->
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+
+        <!-- Recipes Section -->
+        <section>
+            <!-- Section Header -->
+            <div class="flex justify-between items-end mb-4">
+                <div>
+                    <p class="text-sm text-red-600 font-semibold">Recipes</p>
+                    <h2 class="text-4xl font-extrabold text-gray-900 tracking-tight mt-1">Turn up the heat this winter</h2>
+                </div>
+                <a href="#" class="text-sm font-bold text-gray-800 hover:underline whitespace-nowrap">See all recipes</a>
+            </div>
+            
+            <p class="text-gray-600 max-w-2xl leading-relaxed mb-8">
+                From soul soothing soups and homemade pasta to authentic Italian ragù, golden tarte tatin and flaky comté galette; these irresistible recipes are your ticket to cold weather comfort and culinary magic.
+            </p>
+
+            <!-- Recipes Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Recipe Card 1 -->
+                <div class="group">
+                    <div class="relative rounded-lg overflow-hidden mb-4">
+                        <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_Recipe_square_webp%2Fv1747706925%2FKitchen%2520Warehouse%2520Images%2520%2FVietnamese_Caramel_Ginger_Pork_Recipe_Square_800x800px.jpg&w=384&q=75"
+                         alt="Vietnamese Caramel Ginger Pork" class="w-full h-full object-cover">
+                        <button class="absolute top-3 right-3 p-1.5 rounded-full bg-white/80 hover:bg-white cursor-pointer">
+                            <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg>
+                        </button>
+                    </div>
+                    <h3 class="font-bold text-gray-800 leading-snug">Vietnamese Caramel Ginger Pork</h3>
+                    <div class="flex items-center space-x-4 text-gray-500 text-sm mt-2">
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 016-6h6a6 6 0 016 6v1h-3"></path></svg>
+                            <span>6</span>
+                        </div>
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>15</span>
+                        </div>
+                         <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>95</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 2 -->
+                <div class="group">
+                    <div class="relative rounded-lg overflow-hidden mb-4">
+                        <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_Recipe_square_webp%2Fv1747706936%2FKitchen%2520Warehouse%2520Images%2520%2FRag%25C3%25B9_di_Carne_Recipe_Square_800x800px.jpg&w=384&q=75" 
+                        alt="Ragu di Carne" class="w-full h-full object-cover">
+                        <button class="absolute top-3 right-3 p-1.5 rounded-full bg-white/80 hover:bg-white cursor-pointer">
+                            <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg>
+                        </button>
+                    </div>
+                    <h3 class="font-bold text-gray-800 leading-snug">Ragu di Carne</h3>
+                    <div class="flex items-center space-x-4 text-gray-500 text-sm mt-2">
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-1.414 1.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-1.414-1.414A1 1 0 006.586 13H4"></path></svg>
+                            <span>5 x 700mL containers</span>
+                        </div>
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>30</span>
+                        </div>
+                    </div>
+                     <div class="flex items-center space-x-1 text-gray-500 text-sm mt-2">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <span>270</span>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 3 -->
+                <div class="group">
+                    <div class="relative rounded-lg overflow-hidden mb-4">
+                        <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_Recipe_square_webp%2Fv1747706931%2FKitchen%2520Warehouse%2520Images%2520%2FLamb_Shank_and_Barley_Soup_Recipe_Square_800x800px.jpg&w=384&q=75" 
+                        alt="Lamb Shank and Barley Soup" class="w-full h-full object-cover">
+                        <button class="absolute top-3 right-3 p-1.5 rounded-full bg-white/80 hover:bg-white cursor-pointer">
+                           <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg>
+                        </button>
+                    </div>
+                    <h3 class="font-bold text-gray-800 leading-snug">Lamb Shank and Barley Soup</h3>
+                    <div class="flex items-center space-x-4 text-gray-500 text-sm mt-2">
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 016-6h6a6 6 0 016 6v1h-3"></path></svg>
+                            <span>6</span>
+                        </div>
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>15</span>
+                        </div>
+                         <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>45</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Recipe Card 4 -->
+                <div class="group">
+                    <div class="relative rounded-lg overflow-hidden mb-4">
+                        <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fmedia.kitchenwarehouse.com.au%2Fimage%2Fupload%2Ft_Recipe_square_webp%2Fv1747706935%2FKitchen%2520Warehouse%2520Images%2520%2FCheddar_and_Chive_Loaf_Recipe_Square_800x800px.jpg&w=384&q=75"
+                         alt="Cheddar and Chive Loaf" class="w-full h-full object-cover">
+                        <button class="absolute top-3 right-3 p-1.5 rounded-full bg-white/80 hover:bg-white cursor-pointer">
+                           <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4.318 6.318a4.5 4.5 0 016.364 0L12 7.636l1.318-1.318a4.5 4.5 0 016.364 6.364L12 20.364l-7.682-7.682a4.5 4.5 0 010-6.364z"></path></svg>
+                        </button>
+                    </div>
+                    <h3 class="font-bold text-gray-800 leading-snug">Cheddar and Chive Loaf</h3>
+                    <div class="flex items-center space-x-4 text-gray-500 text-sm mt-2">
+                        <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                            <span>1 loaf</span>
+                        </div>
+                        <div class="flex items-center space-x-1">
+                           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>5</span>
+                        </div>
+                         <div class="flex items-center space-x-1">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                            <span>195</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-8 border-gray-300"/>
+        </section>
+
+
+   
+        <!-- Winter Wonders Section -->
+    <body class="bg-white">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <section>
+            <!-- Section Header -->
+            <div class="flex justify-between items-center mb-6">
+                <div>
+                    <a href="#" class="text-sm text-gray-500 hover:text-gray-800">Explore all winter edits</a>
+                    <h2 class="text-4xl font-extrabold text-gray-900 tracking-tight mt-1">Winter wonders</h2>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button id="winter-scroll-left" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button id="winter-scroll-right" class="p-2 rounded-full bg-gray-100 hover:bg-gray-200 transition-colors disabled:opacity-50 disabled:cursor-not-allowed">
+                        <svg class="h-5 w-5 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Wonders Scroller -->
+            <div id="wonders-container" class="flex overflow-x-auto space-x-8 pb-4 no-scrollbar scroll-smooth">
+                
+                <!-- Wonder Card 1 -->
+                <div class="flex-shrink-0 w-80 group">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1750671747%2Ftnoz1pz52a1rezoonp1l.webp&w=640&q=75" 
+                    alt="Chasseur enamelled cast iron cookware" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-xs font-bold text-gray-500 tracking-wider">French flavour and flair</p>
+                    <h3 class="text-xl font-bold text-gray-900 mt-1">Oh là là!</h3>
+                    <p class="text-gray-600 text-sm mt-2">Escape to the heart of France with rich, wintry classics and Chasseur enamelled cast iron.</p>
+                    <a href="#" class="inline-flex items-center text-sm font-bold text-gray-900 mt-4">
+                        Explore now
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+
+                <!-- Wonder Card 2 -->
+                <div class="flex-shrink-0 w-80 group">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1750724862%2Fhomb40m78xvyqkduzsdb.webp&w=640&q=75"
+                    alt="Hot water dispenser and tea accessories" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-xs font-bold text-gray-500 tracking-wider">Essentials for the perfect cuppa</p>
+                    <h3 class="text-xl font-bold text-gray-900 mt-1">Time for tea</h3>
+                    <p class="text-gray-600 text-sm mt-2">Keep the cuppas coming all winter long with the Wolstead Instant Hot Water Dispenser and more accessories for beautiful brews.</p>
+                    <a href="#" class="inline-flex items-center text-sm font-bold text-gray-900 mt-4">
+                        Explore now
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+
+                <!-- Wonder Card 3 -->
+                <div class="flex-shrink-0 w-80 group">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1750830217%2Fwhffvpqu9qxigmwo3mjs.webp&w=640&q=75" 
+                    alt="Bowl of ragu with bread" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-xs font-bold text-gray-500 tracking-wider">Authentic Italian made simple</p>
+                    <h3 class="text-xl font-bold text-gray-900 mt-1">Go Italiano!</h3>
+                    <p class="text-gray-600 text-sm mt-2">MasterChef alumni Elise Pulbrook invites us into her Italian kitchen where slow cooked ragu melts in your mouth.</p>
+                    <a href="#" class="inline-flex items-center text-sm font-bold text-gray-900 mt-4">
+                        Explore now
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+                
+                <!-- Wonder Card 4 -->
+                <div class="flex-shrink-0 w-80 group">
+                    <img src="https://www.kitchenwarehouse.com.au/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdlwdq84ig%2Fimage%2Fupload%2Fv1750317290%2Fhucnnu3ugwzp3ehoc1bv.webp&w=640&q=75"
+                     alt="Bowl of soup" class="w-full h-48 object-cover rounded-lg mb-4">
+                    <p class="text-xs font-bold text-gray-500 tracking-wider">Stir up</p>
+                    <h3 class="text-xl font-bold text-gray-900 mt-1">Super soups</h3>
+                    <p class="text-gray-600 text-sm mt-2">All the inspiration you need to create delicious winter soups from scratch.</p>
+                    <a href="#" class="inline-flex items-center text-sm font-bold text-gray-900 mt-4">
+                        Explore now
+                        <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                    </a>
+                </div>
+
+            </div>
+            
+            <!-- Scroller Progress Bar -->
+            <div class="mt-4 h-1 w-full bg-gray-200 rounded-full overflow-hidden">
+                <div id="wonders-progress-bar" class="h-1 bg-gray-800 rounded-full" style="width: 0%;"></div>
+            </div>
+        </section>
+
+    </div>
+
+ <!-- Review Section -->
+<section class="reviews-section"></section>
+    <p class="rating">4.7 from 10,000+ reviews</p>
+    <h1>We love our customers and it seems the feeling is mutual</h1>
+
+    <div class="review-images">
+        <div class="review-image-card">
+            <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1737102076/gwim3wi0wqc5akfv9dlc.webp?w=1080&q=75" alt="Customer at store">
+        </div>
+        <div class="review-image-card">
+            <img src="https://res.cloudinary.com/dlwdq84ig/image/upload/v1737102132/lmtyi1k3j5tmhwzh5lto.webp?w=1080&q=75" alt="Customer interaction">
+        </div>
+    </div>
+
+    <div class="review-cards">
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <h3>Overall outstanding!</h3>
+            <p>Love the product, exactly as described but what I loved more was the easy and efficient order process. Delivery was quick and communication regarding the order process and delivery ETA was prompt and friendly. Very impressed by you, Kitchen Warehouse, thanks!</p>
+            <span class="author">Julie K.</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <h3>High quality bakeware at competitive prices</h3>
+            <p>Products delivered to your door if you do not have a retail store nearby. Excellent follow up and customer service! I have used Kitchen Warehouse to source specialised baking pans not available in my local stores. The baking pans wash easily and deliver outstanding results. These days the price point is also important, and I am always pleasantly surprised. Keep up the good work!</p>
+            <span class="author">Muriel S.</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <h3>Online ordering was a breeze</h3>
+            <p>Kitchen Warehouse’s online ordering was a breeze! Once my order was placed, the regular updates on its progress, and the exceptionally fast delivery (two days after the order was placed) more than exceeded my expectations!</p>
+            <span class="author">Noelle W.</span>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <h3>Excellent service and product</h3>
+            <p>I recently ordered a baking item from this shop and couldn’t be happier with the entire experience. The ordering process was smooth and straightforward, and I received the item promptly, exactly as promised. It arrived in perfect condition, well-packaged, and just as described. I’m thoroughly happy with both the product and the service - highly recommended!</p>
+            <span class="author">Kathy S.</span>
+        </div>
+    </div>
+</section>
+
+
+ <title>Footer Section</title>
+    <link rel="stylesheet" href="footer.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<footer>
+    <!-- Trust badges -->
+    <div class="footer-top">
+        <ul>
+            <li><i class="fa-solid fa-heart"></i> Trusted by 2.5 million customers</li>
+            <li><i class="fa-solid fa-rotate-left"></i> 30 day money back guarantee</li>
+            <li><i class="fa-solid fa-tag"></i> Price match promise</li>
+            <li><i class="fa-solid fa-truck"></i> Free shipping on orders over $100*</li>
+        </ul>
+    </div>
+
+    <!-- Links + Join Section -->
+    <div class="footer-links">
+        <div class="links-column">
+            <h4>Get to know us</h4>
+            <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our Family Table</a></li>
+                <li><a href="#">Store locator</a></li>
+                <li><a href="#">Perth Weber stores</a></li>
+                <li><a href="#">In-store events</a></li>
+                <li><a href="#">We price match</a></li>
+                <li><a href="#">30 day money back guarantee</a></li>
+                <li><a href="#">Recipes and tips</a></li>
+                <li><a href="#">Buying guides</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+
+        <div class="links-column">
+            <h4>Customer Service</h4>
+            <ul>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Delivery</a></li>
+                <li><a href="#">Click and Collect</a></li>
+                <li><a href="#">Track order</a></li>
+                <li><a href="#">Returns policy</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Ordering and payment</a></li>
+                <li><a href="#">Afterpay</a></li>
+                <li><a href="#">Cookware recycling program</a></li>
+                <li><a href="#">Competitions and giveaways</a></li>
+            </ul>
+        </div>
+
+        <div class="links-column">
+            <h4>Top categories</h4>
+            <ul>
+                <li><a href="#">Dinner sets</a></li>
+                <li><a href="#">Pantry storage containers</a></li>
+                <li><a href="#">Frying pans and skillets</a></li>
+                <li><a href="#">Kitchen knives</a></li>
+                <li><a href="#">Cake tins and cake pans</a></li>
+                <li><a href="#">Knife block sets</a></li>
+                <li><a href="#">Cutlery sets</a></li>
+                <li><a href="#">Free shipping</a></li>
+                <li><a href="#">Gift cards</a></li>
+            </ul>
+        </div>
+
+        <div class="links-column">
+            <h4>Top brands</h4>
+            <ul>
+                <li><a href="#">Scanpan</a></li>
+                <li><a href="#">Salisbury & Co</a></li>
+                <li><a href="#">Avanti</a></li>
+                <li><a href="#">KitchenAid</a></li>
+                <li><a href="#">Kitchen Pro</a></li>
+                <li><a href="#">OXO</a></li>
+                <li><a href="#">Tefal</a></li>
+                <li><a href="#">Global</a></li>
+            </ul>
+        </div>
+
+        <!-- Join Our Family Table -->
+        <div class="join-content">
+            <h4><i class="fa-solid fa-heart"></i> JOIN OUR FAMILY TABLE</h4>
+            <p>Don't miss out! Get special savings, recipes and more delivered to your inbox.</p>
+            <div class="subscribe">
+                <input type="email" placeholder="Enter your email address">
+                <button>Sign up</button>
+            </div>
+            <div class="social-icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+            <small>Your customer reference #: 1755274144365</small>
+        </div>
+    </div>
+
+    <!-- Payment methods -->
+    <div class="payment-methods">
+        <ul>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/visa.svg" alt="Visa"></li>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/mastercard.svg" alt="Mastercard"></li>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/amex.svg" alt="Amex"></li>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/paypal.svg" alt="PayPal"></li>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/applepay.svg" alt="Apple Pay"></li>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/gpay.svg" alt="Google Pay"></li>
+            <li><img src="https://kwh-kitchenwarehouse.netlify.app/images/payment/afterpay.svg" alt="Afterpay"></li>
+        </ul>
+    </div>
+
+    <!-- Footer bottom -->
+    <div class="footer-bottom">
+        <ul class="legal-links">
+            <li><a href="#">Security and privacy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+        </ul>
+        <p class="copyright">© 2025 Kitchen Warehouse all rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+
+  <!-- Link to the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
